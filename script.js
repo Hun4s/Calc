@@ -7,10 +7,11 @@ const operatorButtons = document.querySelectorAll('[data-operator]')
 const pointBtn = document.getElementById('pointBtn')
 const equalBtn = document.getElementById('equalBtn')
 const screenCurrent = document.getElementById('screenCurrent')
+const screenLast = document.getElementById('screenLast')
 
-numberButtons.forEach((button) => {
-    button.addEventListener('click', () =>appendNumber(button.textContent))
-})
+numberButtons.forEach((button) => 
+    button.addEventListener('click', () => appendNumber(button.textContent))
+)
 
 /*operatorButtons.forEach((button) =>
   button.addEventListener('click', () => setOperation(button.textContent))

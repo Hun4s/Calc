@@ -48,7 +48,7 @@ body {
     border-color: black;
 }
 
-.button {
+.btn {
     background-color: black;
     color: white;
     border-radius: 10px;
@@ -56,6 +56,7 @@ body {
     cursor: pointer;
     text-align: center;
     line-height: 60px;
+    font-size: 25px;
 }
 
 .clr {
