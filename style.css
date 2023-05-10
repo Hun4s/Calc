@@ -19,19 +19,26 @@ body {
 }
 
 .screen {
+    display: flex;
+    flex-direction: column;
     border: 10px;
     border-color: black;
     border: solid;
     border-radius: 10px;
     background-color: rgb(168, 168, 168);
-    height: 90px;
     margin-bottom: 15px;
-    padding: 5px;
-    line-height: 1.6;
+    padding: 5px;   
 }
 
 .screen-last {
     font-size: 20px;
+    height: 25px;
+}
+
+.screen-current {
+    line-height: 1.4;
+    height: 40px;
+    font-size: 30px;
 }
 
 .btn-grid {
